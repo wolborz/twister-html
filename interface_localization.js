@@ -1,6 +1,6 @@
 // interface_localization.js
 //
-// uses JavaScript to detect browser language
+// uses JavaScript to detect browser 
 // uses Polyglot.js ( https://github.com/airbnb/polyglot.js ) to translate interface
 
 // zaczynamy polską wersję -- w Wolborzu
@@ -1170,25 +1170,25 @@ if(preferredLanguage == "ja"){
 if(preferredLanguage == "pl"){
     polyglot.locale("pl");
     wordset = {
-      "Actions ▼": "Actions ▼",
-      "Active DHT nodes:": "Active DHT nodes: ",
-      "Add DNS": "Add DNS",
-      "Add peer": "Add peer",
-      "ajax_error": "Ajax error: %{error}", // JavaScript error
-      "All users publicly followed by": "All users publicly followed by",
-      "Available": "Available", // username is available
-      "Block chain information": "Block chain information",
-      "Block chain is up-to-date, twister is ready to use!": "Block chain is up-to-date, twister is ready to use!",
-      "Block generation": "Block generation ",
-      "Cancel": "Cancel",
-      "Change user": "Change user",
-      "Checking...": "Checking...", // checking if username is available
-      "Collapse": "Collapse", // smaller view of a post
-      "Configure block generation": "Configure block generation",
-      "Connections:": "Connections: ", // to network
-      "Connection lost.": "Connection lost.",
-      "days": "%{smart_count} day |||| %{smart_count} days",
-      "Detailed information": "Detailed information",
+      "Actions ▼": "Akcje ▼",
+      "Active DHT nodes:": "Aktywuj notatki DHT: ",
+      "Add DNS": "Dodaj DNS",
+      "Add peer": "Dodaj pary",
+      "ajax_error": "Ajax błąd: %{error}", // JavaScript error
+      "All users publicly followed by": "Wszyscy urzytkownicy śledzeni",
+      "Available": "Dostępny", // username is available
+      "Block chain information": "Zablokuj łańcuch informacji",
+      "Block chain is up-to-date, twister is ready to use!": "Zablokuj łańcuch aktualny, twister jest gotowy do użycia!",
+      "Block generation": "Blokowa generacja ",
+      "Cancel": "Anuluj",
+      "Change user": "Zmiana użytkownika",
+      "Checking...": "sprawdzanie...", // checking if username is available
+      "Collapse": "załamanie", // smaller view of a post
+      "Configure block generation": "konfigurowanie blokowej generacji",
+      "Connections:": "Łączenie: ", // to network
+      "Connection lost.": "Połączenie utracone.",
+      "days": "%{smart_count} day |||| %{łatwe,liczenie} days",
+      "Detailed information": "Szczegóły informacyjne",
       "DHT network down.": "DHT network down.",
       "Direct Messages": "Direct Messages",
       "Disable": "Wyłącz",
@@ -1203,14 +1203,14 @@ if(preferredLanguage == "pl"){
       "Error in 'createwalletuser' RPC.": "Błąd w 'createwalletuser' RPC.",
       "Error in 'importprivkey'": "Błąd w 'importprivkey' RPC: %{rpc}",
       "Error in 'sendnewusertransaction' RPC.": "Błąd w 'sendnewusertransaction' RPC.",
-      "Expand": "Rozszerz", // larger view of a post
+      "Expand": "Rozszerzać", // larger view of a post
       "Favorite": "Ulubione",
-      "File APIs not supported in this browser.": "Pliki API nie są obsługiwane przez przeglądarkę",
-      "Follow": "Śledź",
-      "Followed by": "Śledzony przez",
-      "followed_by": "Obserwowany przez %{username}",
-      "Followers": "Obserwatorzy",
-      "Following": "Obserwowani",
+      "File APIs not supported in this browser.": "Plik APIs nie jest obsługiwany przez tą przeglądarkę.",
+      "Follow": "Obserwuj",
+      "Followed by": "Obserwowani przez",
+      "followed_by": "Obserwowani przez %{username}",
+      "Followers": "Obserwujący",
+      "Following": "Obserwować",
       "Following users": "Obserwowanie urzytkownicy",
       "Force connection to peer:": "Siłowe połączenie z peer'em:",
       "General information": "Iformacje ogólne",
