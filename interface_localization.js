@@ -3,7 +3,7 @@
 // uses JavaScript to detect browser language
 // uses Polyglot.js ( https://github.com/airbnb/polyglot.js ) to translate interface
 
-// zaczynamy polską wersję
+// zaczynamy polską wersję -- w Wolborzu
 
 // translators: add your language code here such as "es" for Spanish, "ru" for Russian
 var knownLanguages = ["en","nl","it","fr","ru","de","zh","ja","pl"];
