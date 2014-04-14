@@ -1179,16 +1179,16 @@ if(preferredLanguage == "pl"){
       "Available": "Available", // username is available
       "Block chain information": "Block chain information",
       "Block chain is up-to-date, twister is ready to use!": "Block chain is up-to-date, twister is ready to use!",
-      "Block generation": "Block generation ",
-      "Cancel": "Cancel",
-      "Change user": "Change user",
-      "Checking...": "Checking...", // checking if username is available
-      "Collapse": "Collapse", // smaller view of a post
-      "Configure block generation": "Configure block generation",
-      "Connections:": "Connections: ", // to network
-      "Connection lost.": "Connection lost.",
-      "days": "%{smart_count} day |||| %{smart_count} days",
-      "Detailed information": "Detailed information",
+      "Block generation": "Blokowa generacja ",
+      "Cancel": "Anuluj",
+      "Change user": "Zmiana użytkownika",
+      "Checking...": "sprawdzanie...", // checking if username is available
+      "Collapse": "załamanie", // smaller view of a post
+      "Configure block generation": "konfigurowanie blokowej generacji",
+      "Connections:": "Łączenie: ", // to network
+      "Connection lost.": "Połączenie utracone.",
+      "days": "%{smart_count} day |||| %{łatwe,liczenie} days",
+      "Detailed information": "Szczegóły informacyjne",
       "DHT network down.": "DHT network down.",
       "Direct Messages": "Direct Messages",
       "Disable": "Disable",
