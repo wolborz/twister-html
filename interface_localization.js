@@ -1,6 +1,6 @@
 // interface_localization.js
 //
-// uses JavaScript to detect browser language
+// uses JavaScript to detect browser 
 // uses Polyglot.js ( https://github.com/airbnb/polyglot.js ) to translate interface
 
 // zaczynamy polską wersję -- w Wolborzu
@@ -1170,16 +1170,16 @@ if(preferredLanguage == "ja"){
 if(preferredLanguage == "pl"){
     polyglot.locale("pl");
     wordset = {
-      "Actions ▼": "Actions ▼",
-      "Active DHT nodes:": "Active DHT nodes: ",
-      "Add DNS": "Add DNS",
-      "Add peer": "Add peer",
-      "ajax_error": "Ajax error: %{error}", // JavaScript error
-      "All users publicly followed by": "All users publicly followed by",
-      "Available": "Available", // username is available
-      "Block chain information": "Block chain information",
-      "Block chain is up-to-date, twister is ready to use!": "Block chain is up-to-date, twister is ready to use!",
-      "Block generation": "Block generation ",
+      "Actions ▼": "Akcje ▼",
+      "Active DHT nodes:": "Aktywuj notatki DHT: ",
+      "Add DNS": "Dodaj DNS",
+      "Add peer": "Dodaj pary",
+      "ajax_error": "Ajax błąd: %{error}", // JavaScript error
+      "All users publicly followed by": "Wszyscy urzytkownicy śledzeni",
+      "Available": "Dostępny", // username is available
+      "Block chain information": "Zablokuj łańcuch informacji",
+      "Block chain is up-to-date, twister is ready to use!": "Zablokuj łańcuch aktualny, twister jest gotowy do użycia!",
+      "Block generation": "Blokuje generację ",
       "Cancel": "Cancel",
       "Change user": "Change user",
       "Checking...": "Checking...", // checking if username is available
