@@ -6,7 +6,7 @@
 // zaczynamy polską wersję
 
 // translators: add your language code here such as "es" for Spanish, "ru" for Russian
-var knownLanguages = ["en","nl","it","fr","ru","de","zh","ja"];
+var knownLanguages = ["en","nl","it","fr","ru","de","zh","ja","pl"];
 
 // detect language with JavaScript
 var preferredLanguage = window.navigator.userLanguage || window.navigator.language || "en";
