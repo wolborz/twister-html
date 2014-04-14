@@ -1,6 +1,6 @@
 // interface_localization.js
 //
-// uses JavaScript to detect browser language
+// uses JavaScript to detect browser 
 // uses Polyglot.js ( https://github.com/airbnb/polyglot.js ) to translate interface
 
 // zaczynamy polską wersję -- w Wolborzu
@@ -1170,15 +1170,15 @@ if(preferredLanguage == "ja"){
 if(preferredLanguage == "pl"){
     polyglot.locale("pl");
     wordset = {
-      "Actions ▼": "Actions ▼",
-      "Active DHT nodes:": "Active DHT nodes: ",
-      "Add DNS": "Add DNS",
-      "Add peer": "Add peer",
-      "ajax_error": "Ajax error: %{error}", // JavaScript error
-      "All users publicly followed by": "All users publicly followed by",
-      "Available": "Available", // username is available
-      "Block chain information": "Block chain information",
-      "Block chain is up-to-date, twister is ready to use!": "Block chain is up-to-date, twister is ready to use!",
+      "Actions ▼": "Akcje ▼",
+      "Active DHT nodes:": "Aktywuj notatki DHT: ",
+      "Add DNS": "Dodaj DNS",
+      "Add peer": "Dodaj pary",
+      "ajax_error": "Ajax błąd: %{error}", // JavaScript error
+      "All users publicly followed by": "Wszyscy urzytkownicy śledzeni",
+      "Available": "Dostępny", // username is available
+      "Block chain information": "Zablokuj łańcuch informacji",
+      "Block chain is up-to-date, twister is ready to use!": "Zablokuj łańcuch aktualny, twister jest gotowy do użycia!",
       "Block generation": "Blokowa generacja ",
       "Cancel": "Anuluj",
       "Change user": "Zmiana użytkownika",
@@ -1201,16 +1201,16 @@ if(preferredLanguage == "pl"){
       "error": "Error: %{error}",
       "error_connecting_to_daemon": "Error connecting to local twister daemon.",
       "Error in 'createwalletuser' RPC.": "Error in 'createwalletuser' RPC.",
-      "Error in 'importprivkey'": "Error in 'importprivkey' RPC: %{rpc}",
-      "Error in 'sendnewusertransaction' RPC.": "Error in 'sendnewusertransaction' RPC.",
-      "Expand": "Expand", // larger view of a post
-      "Favorite": "Favorite",
-      "File APIs not supported in this browser.": "File APIs not supported in this browser.",
-      "Follow": "Follow",
-      "Followed by": "Followed by",
-      "followed_by": "Followed by %{username}",
-      "Followers": "Followers",
-      "Following": "Following",
+      "Error in 'importprivkey'": "Błąd w 'importprivkey' RPC: %{rpc}",
+      "Error in 'sendnewusertransaction' RPC.": "Błąd w 'sendnewusertransaction' RPC.",
+      "Expand": "Rozszerzać", // larger view of a post
+      "Favorite": "Ulubione",
+      "File APIs not supported in this browser.": "Plik APIs nie jest obsługiwany przez tą przeglądarkę.",
+      "Follow": "Obserwuj",
+      "Followed by": "Obserwowani przez",
+      "followed_by": "Obserwowani przez %{username}",
+      "Followers": "Obserwujący",
+      "Following": "Obserwować",
       "Following users": "Following users",
       "Force connection to peer:": "Force connection to peer:",
       "General information": "General information",
